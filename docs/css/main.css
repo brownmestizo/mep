@@ -122,8 +122,8 @@
 .au-body a { color: #B20580; text-decoration: underline; text-decoration-skip-ink: auto; }
 .au-body--alt a { color: #ffffff; text-decoration: underline; text-decoration-skip-ink: auto; }
 
-.au-body a:hover { color: #ed95d4; text-decoration: none; }
-.au-body--alt a:hover { color: #a09f9f; text-decoration: none; }
+.au-body a:hover { color: #313131; text-decoration: none; }
+.au-body--alt a:hover { color: #ed95d4; text-decoration: none; }
 
 .au-body a:focus { outline: 3px solid #0C8927; outline-offset: 2px; }
 
