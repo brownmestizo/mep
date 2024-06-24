@@ -120,8 +120,9 @@
 .au-body { font-size: 16px; font-size: 1rem; line-height: 1.5; margin: 0; text-size-adjust: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #313131; background-color: #ffffff; /** Highlighting in-page sections that are in focus */ /** `mark` styling. */ /** Text selection styling */ /** Vertical spacing of common text elements. */ /** Emphasis and alt. voice/mood/diff. from prose text. */ /** Stong emphasis. */ /** `small`: for less important information (not stylistic purposes). */ /** `s`: represents contents no longer accurate/relevant. del` & `ins`: editorial markup. */ /** Defining definition of a term. The paragraph, description list group, or section that is the nearest ancestor of the `dfn` element must also contain the definition(s) for the term given by the `dfn` element. Note: `abbr` can be nested inside `dfn`. */ /** Abbreviations/acronyms. */ /** Variables, eg. as used in mathematical expressions. We also provide semantic support for nested vars, and things like indices. */ /** Prevent `sub` and `sup` elements from affecting the line height in all browsers. https://github.com/necolas/normalize.css/blob/master/normalize.css#L174 */ /** Keyboard strokes. Code snippets and code blocks. */ /** Horizontal rule, used for paragraph-level thematic breaks. */ /** Body colour schemes */ }
 
 .au-body a { color: #B20580; text-decoration: underline; text-decoration-skip-ink: auto; }
+.au-body--alt a { color: #ffffff; text-decoration: underline; text-decoration-skip-ink: auto; }
 
-.au-body a:hover { color: #313131; text-decoration: none; }
+.au-body a:hover { color: #ed95d4; text-decoration: none; }
 .au-body--alt a:hover { color: #a09f9f; text-decoration: none; }
 
 .au-body a:focus { outline: 3px solid #0C8927; outline-offset: 2px; }
